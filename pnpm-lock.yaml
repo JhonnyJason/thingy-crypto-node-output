@@ -14,8 +14,8 @@ importers:
 
 packages:
 
-  '@noble/ed25519@2.1.0':
-    resolution: {integrity: sha512-KM4qTyXPinyCgMzeYJH/UudpdL+paJXtY3CHtHYZQtBkS8MZoPr4rOikZllIutJe0d06QDQKisyn02gxZ8TcQA==}
+  '@noble/ed25519@2.3.0':
+    resolution: {integrity: sha512-M7dvXL2B92/M7dw9+gzuydL8qn/jiqNHaoR3Q+cb1q1GHV7uwE17WCyFMG+Y+TZb5izcaXk5TdJRrDUxHXL78A==}
 
   secret-manager-crypto-utils@0.3.1:
     resolution: {integrity: sha512-w4usWFH1r4ucR8dZBk81kmBo3ZOouU6a+/fZEaOFaP22icFapbelf1f5M1QwcbZ0AwPDeWfwvq8DfNOr0PAQyg==}
@@ -25,11 +25,11 @@ packages:
 
 snapshots:
 
-  '@noble/ed25519@2.1.0': {}
+  '@noble/ed25519@2.3.0': {}
 
   secret-manager-crypto-utils@0.3.1:
     dependencies:
-      '@noble/ed25519': 2.1.0
+      '@noble/ed25519': 2.3.0
       thingy-byte-utils: 0.0.8
 
   thingy-byte-utils@0.0.8: {}
