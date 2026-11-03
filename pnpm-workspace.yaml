@@ -1,0 +1,3 @@
+minimumReleaseAgeExclude:
+  - secret-manager-crypto-utils@0.4.0
+  - thingy-byte-utils@0.3.0

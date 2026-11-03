@@ -9,27 +9,28 @@ importers:
   .:
     dependencies:
       secret-manager-crypto-utils:
-        specifier: ^0.3.1
-        version: 0.3.1
+        specifier: ^0.4.0
+        version: 0.4.0
 
 packages:
 
-  '@noble/ed25519@2.3.0':
-    resolution: {integrity: sha512-M7dvXL2B92/M7dw9+gzuydL8qn/jiqNHaoR3Q+cb1q1GHV7uwE17WCyFMG+Y+TZb5izcaXk5TdJRrDUxHXL78A==}
+  '@noble/ed25519@3.2.0':
+    resolution: {integrity: sha512-criDgRlnUA09hchYrTy/JUWPIEap5rZxQe6wDWzRx51oWWpDRcUpuNzlgPxDJaOK6AsW9c0wKcj3rKRv6t+bPQ==}
 
-  secret-manager-crypto-utils@0.3.1:
-    resolution: {integrity: sha512-w4usWFH1r4ucR8dZBk81kmBo3ZOouU6a+/fZEaOFaP22icFapbelf1f5M1QwcbZ0AwPDeWfwvq8DfNOr0PAQyg==}
+  secret-manager-crypto-utils@0.4.0:
+    resolution: {integrity: sha512-qaJmVrmAQoQ+gwJxJQLJX1wCDO2KLgFTutl06oPy4fNTZlZjlDpYn5oBul/cJtHwopQbX1LSALKiwo1yirJMHg==}
+    engines: {node: '>=22'}
 
-  thingy-byte-utils@0.0.8:
-    resolution: {integrity: sha512-m9+aSv0XrU1g6Da61Qq0ZnyflSYx1/uWfD98UFziOV4WMrEzE5eHTjXGhxhFRzauL3EkwujZZJbOBxj8PzHyAg==}
+  thingy-byte-utils@0.3.0:
+    resolution: {integrity: sha512-WovVbz2C4jhRF1cr9CbNspXKGZwCMdt20BOjm4s+WXJG509ZVmKYUkKjkE9QLvsZ862PEesL9BQO5tME1BqgKw==}
 
 snapshots:
 
-  '@noble/ed25519@2.3.0': {}
+  '@noble/ed25519@3.2.0': {}
 
-  secret-manager-crypto-utils@0.3.1:
+  secret-manager-crypto-utils@0.4.0:
     dependencies:
-      '@noble/ed25519': 2.3.0
-      thingy-byte-utils: 0.0.8
+      '@noble/ed25519': 3.2.0
+      thingy-byte-utils: 0.3.0
 
-  thingy-byte-utils@0.0.8: {}
+  thingy-byte-utils@0.3.0: {}
